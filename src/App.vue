@@ -17,7 +17,7 @@ onMounted(() => {
   </div> 
   <HelloWorld msg="" />
   <div v-if="hasUpdate" class="update-notice">
-    检测到页面有新版本，<button @click="reload">点击刷新</button>
+    检测到页面有新版本，<button @click="reload">点击刷新!!!!</button>
   </div>
 </template>
 
