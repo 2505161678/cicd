@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import UpdateNotifier from './components/UpdateNotifier.vue'
 import { onMounted } from 'vue'
 import { useEtagUpdateChecker } from './useEtagUpdateChecker'
 
